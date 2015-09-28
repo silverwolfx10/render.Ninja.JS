@@ -1,0 +1,31 @@
+{
+  "name": "render.Ninja.JS",
+  "version": "0.0.0",
+  "authors": [
+    "Cleber de Moraes Goncalves <cleber.programmer@hotmail.com>"
+  ],
+  "description": "Um facade para atribuir um template na propriedade innerHTML de um elemento, retornando um promisse a funcao curry",
+  "main": "render.js",
+  "keywords": [
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Bibizzy/render.Ninja.JS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Ninja.JS": "*",
+    "always.Ninja.JS": "*",
+    "compose.Ninja.JS": "*",
+    "curry.Ninja.JS": "*",
+    "fileRequest.Ninja.JS": "*",
+    "innerHTML.Ninja.JS": "*",
+    "promisse.Ninja.JS": "*",
+    "template.Ninja.JS": "*"
+  }
+}
