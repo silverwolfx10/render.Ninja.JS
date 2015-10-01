@@ -45,7 +45,9 @@ this.Ninja.module('$render', [
      * do template apos o request do arquivo, retornando um promisse
      */
     function solve(resolve) {
-      return resolve($fileRequest(url, $compose(resolve(), $compose($innerHTML(element), $template(_, data)))));
+      return resolve(setTimeout(function () {
+        $fileRequest(url, $compose(resolve(), $compose($innerHTML(element), $template(_, data))));
+      }));
     }
     
     /**
